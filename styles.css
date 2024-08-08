@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bigger-container {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: end;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  height: auto;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 1px;
+  flex-grow: 0;
+}
+
+.square {
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.yellow-square {
+  background-color: rgb(253, 211, 21);
+  width: 20px;
+  height: 20px;
+}
+
+.reset-option {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#reset-btn {
+  background-color: rgb(150, 150, 150);
+  border: none;
+  border-radius: 2px;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#reset-btn:hover {
+  background-color: rgb(121, 120, 120);
+}
+.options {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.options > button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.options > button:hover {
+  background-color: rgb(211, 211, 211);
+}
